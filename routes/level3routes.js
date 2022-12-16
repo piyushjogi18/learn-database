@@ -8,7 +8,7 @@ level3Router.get('/:query',function(req,res){
     let sql;
     switch(req.params.query){
         case 'natural-join' : 
-                sql = "SELECT * FROM users";  
+                sql = "SELECT * FROM users WHERE id > 3";  
                 break;
     } 
 
